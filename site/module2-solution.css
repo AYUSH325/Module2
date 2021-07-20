@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+
+div {
+	background-color: yellow;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	width: 90%;
+	color: blue;
+}
+
+section {
+	background-color: orange;
+	font-size: 15px;
+	font-family: helvetica;
+	padding: 10px;
+	border: 1px solid black;
+	width: 25%;
+	color: black;
+	text-align: center;
+}
+
+.style{
+	position: relative;
+	left: 76%;
+	bottom: 20%;
+}
+
+@media (min-width: 992px){
+	div {
+		width: 30.33%;
+		float: left;
+
+	}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	div {
+		width: 47%;
+		float: left;
+	}
+
+	.width{
+		width: 10%;
+		position: relative;
+		left: 92%;
+		
+	}
+
+	.md{
+		width: 100%;
+		margin: 10px;
+	}
+}
+
+
+
+
+
